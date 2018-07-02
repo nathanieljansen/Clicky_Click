@@ -6,10 +6,9 @@ import "./GameHeader.css";
 
 // export default GameHeader;
 
-export default () => (
+export default (props) => (
 
 <Navbar className="gameHeader" brand='Clicky Click' right>
-  <NavItem onClick={() => console.log('test click')}>Getting started</NavItem>
-  <NavItem href='components.html'>Components</NavItem>
+  <NavItem onClick={() => console.log('test click')}>Instructions</NavItem>
 </Navbar>
 )
